@@ -1,0 +1,158 @@
+
+/* =========================ROADMAP==============================================*/
+/* =========================ROADMAP==============================================*/
+/* =========================ROADMAP==============================================*/
+/* =========================ROADMAP==============================================*/
+/* =========================ROADMAP==============================================*/
+/* =========================ROADMAP==============================================*/
+/* =========================ROADMAP==============================================*/
+/* =========================ROADMAP==============================================*/
+/* =========================ROADMAP==============================================*/
+#Roadmap {
+    padding-top: 0px;
+    padding-bottom: 30px;
+    background-color: #F1F1F3;
+    /*height: 1500px;*/
+}
+
+#Roadmap h2{
+  padding-top: 20px;
+  /* padding-bottom: 40px; */
+  font-family: 'Nunito Sans', sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.timeline ul {
+  margin-top: 20px;
+}
+
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 3px;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background: #BEC0C8;
+}
+
+.timeline ul li::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  transform: translateX(-50%);
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 3px solid #BEC0C8;
+}
+
+.timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 40vw;
+  padding: 30px;
+  border-radius: 10px;
+  background: #fff;
+  -webkit-box-shadow: 0px 3px 10px rgba(11, 19, 38, 0.36);
+  -moz-box-shadow: 0px 3px 10px rgba(11, 19, 38, 0.36);
+  box-shadow: 0px 3px 10px rgba(11, 19, 38, 0.2);
+}
+
+.timeline ul li div time{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  display: block;
+  margin-bottom: 15px !important;
+}
+
+.timeline ul li div p{
+  font-size: 17px;
+}
+
+.timeline ul li:nth-child(odd) div {
+  left: 5vw;
+}
+
+.timeline ul li:nth-child(odd) div::before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #ff0073 transparent transparent;
+}
+
+.timeline ul li:nth-child(even) div {
+  left: -45vw;
+}
+
+.timeline ul li:nth-child(even) div::before {
+  right: -15px;
+  border-width: 8px 0 8px 16px;
+  border-color: transparent transparent transparent #ff0073;
+}
+
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #Roadmap {
+    /*height:1400px;*/
+  }
+
+  .timeline ul li {
+    right: 40vw;
+  }
+
+  .timeline ul li div {
+    width: 75vw;
+  }
+
+  .timeline ul li:nth-child(odd) div {
+    left: 7vw;
+  }
+
+  .timeline ul li:nth-child(even) div {
+    left: 7vw;
+  }
+
+}
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    #Roadmap {
+      /*height:1300px;*/
+    }
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    #Roadmap {
+      /*height:1200px;*/
+    }
+  }
+
+   /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    #Roadmap {
+      /*height:1100px;*/
+    }
+
+    }
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1281px) {
+    #Roadmap {
+      /*height:1100px;*/
+    }
+  }

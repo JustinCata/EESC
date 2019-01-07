@@ -1,0 +1,118 @@
+/* =========================WHY==============================================*/
+/* =========================WHY==============================================*/
+/* =========================WHY==============================================*/
+/* =========================WHY==============================================*/
+/* =========================WHY==============================================*/
+/* =========================WHY==============================================*/
+/* =========================WHY==============================================*/
+/* =========================WHY==============================================*/
+.WHY{
+  background-color: #ff0073;
+  padding-top: 20vw;
+  padding-bottom: 20vw;
+}
+h3{
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.Belief{
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  padding-bottom: 10vw;
+}
+
+.dot {
+    height: 18px;
+    width: 18px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+.WHY .subscribers{
+  text-align: center;
+  width: 30%;
+  border: 2px solid #ff0073;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+  position: absolute;
+  margin-top: 15%;
+  left:33%;
+}
+.WHY .subscribers h3{
+  color: black;
+  font-size: 20px;
+}
+
+
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .Belief{
+    font-size: 22px !important;
+  }
+  .WHY .container h3 {
+    font-size: 16px;
+  }
+  .WHY .container .dot {
+    height: 12px;
+    width: 12px;
+  }
+  .WHY .subscribers{
+    text-align: center;
+    width: 40%;
+    border: 2px solid #ff0073;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    position: absolute;
+    margin-top: 20px;
+    left: 30%;
+  }
+  .WHY .subscribers h3{
+    color: black;
+    font-weight: bold;
+  }
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .WHY .subscribers{
+    width: 40%;
+    left: 30%;
+  }
+  .WHY .subscribers h3{
+    font-size: 2.5rem;
+  }
+  .WHY .subscribers p{
+    font-size: 1.8rem;
+  }
+}
+
+ /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1281px) {
+
+}

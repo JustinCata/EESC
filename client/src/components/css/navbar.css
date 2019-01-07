@@ -1,0 +1,319 @@
+/* =========================Navbar==============================================*/
+/* =========================Navbar==============================================*/
+/* =========================Navbar==============================================*/
+/* =========================Navbar==============================================*/
+/* =========================Navbar==============================================*/
+/* =========================Navbar==============================================*/
+/* =========================Navbar==============================================*/
+/* =========================Navbar==============================================*/
+
+
+.Navbar {
+
+  font-family: 'Nunito Sans', sans-serif;
+  border: none;
+}
+
+nav {
+  height: 70px;
+}
+
+.Navbar .MetaNav {
+  width: 275px;
+  position: fixed;
+  top: 9px;
+  left: 15px;
+}
+
+.navbar-inverse{
+  background-color: white;
+  position: fixed;
+  border: 0px;
+  box-shadow: none;
+  transition: all 0.5s ease;
+
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: #ff0073;
+  font-size: 25px !important;
+}
+.navbar-inverse .navbar-toggle {
+  border-color: black !important;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+  color: #7695f8;
+}
+.navbar-inverse .navbar-toggle:hover {
+  background-color: #ff0073;
+}
+
+.navbar-toggle {
+  position:fixed;
+  top: 11px;
+  right:1%;
+  border: 0px;
+}
+
+.navbar-inverse.scrolled{
+  background: white;
+}
+
+nav .container {
+  width: 100%;
+  margin: 0;
+  max-width: none;
+}
+#hamburger {
+  background-color: #ff0073;
+}
+#navbar {
+   position: fixed;
+   top: 11px;
+   right: 1%;
+}
+
+.navbar-inverse .navbar-collapse {
+  border-top: 0px;
+  border-color: transparent;
+}
+
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 350px) {
+  /*nav {
+    height:80px;
+  }*/
+  .navbar-inverse .navbar-nav>li>a {
+    font-size:18px !important;
+  }
+  /*.Navbar .MetaNav {
+    width: 75%;
+    position: fixed;
+    top:15px;
+
+  }*/
+  /*#navbar {
+    position: relative;
+    top:15px;
+    right:1%;
+ }*/
+ .nav>li {
+    /* padding-top: 17px; */
+    text-align: center;
+    position: relative;
+    display: contents;
+  }
+
+  /*.navbar-inverse .navbar-collapse {
+    background-color: #3399c9;
+    border-color: transparent;
+    margin-top: 15px;
+  }*/
+}
+
+@media only screen and (min-width: 350px) {
+  /*nav {
+    height:80px;
+}*/
+.navbar-inverse .navbar-nav>li>a {
+  font-size:18px !important;
+}
+  /*.Navbar .MetaNav {
+    width: 280px;
+    position: fixed;
+    top:15px;
+
+  }*/
+  /*#navbar {
+    position: relative;
+    top:15px;
+    right:1%;
+ }*/
+ .nav>li {
+    /* padding-top: 17px; */
+    text-align: center;
+    position: relative;
+    display: contents;
+  }
+}
+@media only screen and (min-width: 500px) {
+  /*nav {
+    height:80px;
+}*/
+  .navbar-inverse .navbar-nav>li>a {
+    font-size:18px !important;
+  }
+  /*.Navbar .MetaNav {
+    width: 300px;
+    position: fixed;
+    top:10px;
+
+  }*/
+  /*#navbar {
+    position: relative;
+    top:15px;
+    right:1%;
+ }*/
+ .nav>li {
+    /* padding-top: 17px; */
+    text-align: center;
+    position: relative;
+    display: contents;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  /*nav {
+    height:80px;
+}*/
+.navbar-inverse .navbar-nav>li>a {
+  font-size:18px !important;
+}
+  /*.Navbar .MetaNav {
+    width: 300px;
+    position: fixed;
+    top:10px;
+
+  }*/
+  /*#navbar {
+    position: relative;
+    top:16px;
+    right:1%;
+ }*/
+
+}
+
+@media only screen and (max-width: 767px) {
+  #navbar {
+    position: relative;
+    top: 5px;
+    right: 0px;
+  }
+
+  .Navbar .MetaNav {
+    width: 230px;
+    top: 10px;
+    left: 8px;
+  }
+
+  .navbar-inverse .navbar-collapse {
+    background-color: #ffffffeb;
+    border-color: transparent;
+    margin-top: 15px;
+  }
+
+  .nav>li {
+    /* padding-top: 17px; */
+    text-align: center !important;
+    position: relative;
+    display: block;
+    width: 100%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /*nav {
+    height:80px;
+}*/
+.navbar-inverse .navbar-nav>li>a {
+  font-size:18px !important;
+}
+  /*.Navbar .MetaNav {
+    width: 300px;
+    position: fixed;
+    top:10px;
+
+  }*/
+  /*#navbar {
+    position: fixed;
+    top:16px;
+    right:1%;
+ }*/
+ .nav>li {
+    /*padding-top: 17px;*/
+    text-align: unset;
+    position: relative;
+    display: block;
+  }
+}
+
+ /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /*nav {
+    height:80px;
+}*/
+  /*.Navbar .MetaNav {
+    width: 300px;
+    position: fixed;
+    top:10px;
+
+  }*/
+  /*#navbar {
+    position: fixed;
+    top:16px;
+    right:1%;
+ }*/
+  .nav>li {
+    /* padding-top: 17px; */
+    text-align: unset;
+    position: relative;
+    display: block;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1281px) {
+  /*nav {
+    height:90px;
+}*/
+  /*#navbar {
+    position: fixed;
+    top:20px;
+    right:1%;
+ }*/
+  /*.Navbar .MetaNav {
+    width: 300px;
+    position: fixed;
+    top:10px;
+
+
+  }*/
+  .nav>li {
+    /* padding-top: 17px; */
+    text-align: unset;
+    position: relative;
+    display: block;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  /*nav {
+    height:80px;
+}*/
+ /* #navbar {
+    position: fixed;
+    top:20px;
+    right:1%;
+ }*/
+  /*.Navbar .MetaNav {
+    width: 300px;
+    position: fixed;
+    top:10px;
+  }*/
+  .nav>li {
+    /* padding-top: 17px; */
+    text-align: unset;
+    position: relative;
+    display: block;
+  }
+}

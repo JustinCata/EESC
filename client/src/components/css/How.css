@@ -1,0 +1,126 @@
+/* =========================How==============================================*/
+/* =========================How==============================================*/
+/* =========================How==============================================*/
+/* =========================How==============================================*/
+/* =========================How==============================================*/
+/* =========================How==============================================*/
+/* =========================How==============================================*/
+.HOW{
+  margin-top: 20vw;
+  margin-bottom: 20vw;
+
+}
+.HOW .photo{
+  width:30vw;
+}
+.Text{
+  color: black;
+}
+.HOW .shiftdown{
+  padding-top: 1em;
+}
+.HOW .row{
+  padding-bottom: 10vw;
+
+}
+.highlight{
+  color: #ff0073;
+}
+
+#connect{
+padding-top: 15vw;
+
+}
+
+
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .HOW .photo {
+    width:60vw;
+    margin-bottom: 25px;
+  }
+  .phoneImage{
+    text-align: center;
+  }
+ 
+  .shiftdown p {
+    text-align: center ;
+    font-size: 1.2rem;
+  }
+
+  #connect{
+    padding-top: 0vw;
+  }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .HOW .photo{
+    width:30vw;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .shiftdown p{
+    font-size: 1rem;
+  }
+  .HOW .shiftdown{
+    padding-top: 1em;
+  }
+  .HOW .photo{
+    width:30vw;
+  }
+  #earn{
+    padding-top:4em;
+  }
+  #share{
+    padding-top:6em;
+  }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .HOW .shiftdown{
+    padding-top: 10em;
+  }
+  #sell {
+    padding-top: 4em;
+  }
+  .HOW .photo{
+    width:30vw;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1281px) {
+  .shiftdown p{
+    font-size: 1.2rem;
+    line-height: 1.5em;
+  }
+
+  .HOW .shiftdown{
+    padding-top: 10em;
+  }
+
+  .HOW .photo{
+    width:18vw;
+  }
+}
+

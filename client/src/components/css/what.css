@@ -1,0 +1,168 @@
+/* =========================WHAT==============================================*/
+/* =========================WHAT==============================================*/
+/* =========================WHAT==============================================*/
+/* =========================WHAT==============================================*/
+/* =========================WHAT==============================================*/
+/* =========================WHAT==============================================*/
+/* =========================WHAT==============================================*/
+.container1{
+  background-color: #7695f8;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: bold;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+  padding-left: 8vw;
+  padding-right: 8vw;
+}
+
+.container2{
+  background-color: #ffd788;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+  padding-left: 8vw;
+  padding-right: 8vw;
+}
+.container2 p {
+  line-height: 1.2em;
+}
+#video{
+  padding-top: 50px;
+}
+.container3{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+  padding-left: 8vw;
+  padding-right: 8vw;
+}
+.container3 img{
+  max-width: 90%;
+}
+.shift{
+  padding-bottom: 3vw;
+}
+.container3 .btn{
+  background-color: #ff0073;
+}
+.container3 #liquidCarrot{
+  padding-bottom:10%;
+  width:20%;
+}
+.container3 #edisonJoao {
+  width: 40%;
+  margin-top:-10%;
+  margin-left: 5%;
+}
+.bgimg {
+    background-image: url('../assets/What/metamesh logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.container4 h4{
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 8vw;
+}
+.row{
+  padding-bottom: 8vw;
+}
+.container .text{
+  font-size: 1.5em;
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+  iframe{
+    width: 100%;
+    height: 56%;  }
+
+    .container1 p{
+      font-size: 1em;
+    }
+    .container1 p{
+      margin: 0 0 3px;
+    }
+    .container2 p{
+      font-size: .8em;
+    }
+    .container4 .text{
+      font-size: .95em;
+    }
+    .commit{
+      padding-bottom: 20px;
+    }
+
+}
+@media only screen and (max-width: 768px) {
+  iframe{
+    width: 100%;
+  }
+  .container1{
+    font-size: 1em;
+    font-weight: bolder;
+  }
+  .container1 p{
+    margin: 0 0 0px;
+  }
+  .container2{
+    font-size: 1.5em;
+  }
+  .container4 .text{
+    font-size: 1.5em;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  iframe{
+    width: 100%;
+  }
+  .container1{
+    font-size: 1.5em;
+  }
+  .container1 p{
+    margin: 0 0 3px;
+    line-height: 1.2em;
+  }
+  .container2{
+    font-size: 1.5em;
+    line-height: 1.2em;
+  }
+  .container4 .text{
+    font-size: 1.2em;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1281px) {
+  .container1{
+    font-size: 1.5em;
+  }
+  .container1 p{
+    margin: 0 0 3px;
+    line-height: 1.2em;
+    font-size: 1.4em;
+  }
+  .container2 p{
+    margin: 0 0 3px;
+    line-height: 1.2em;
+    font-size: 1.4em;
+  }
+  .container2{
+    font-size: 1.5em;
+    line-height: 1.2em;
+  }
+  .container4 .text{
+    font-size: 1.5em;
+    line-height: 1.2em;
+  }
+}

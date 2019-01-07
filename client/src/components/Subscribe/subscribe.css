@@ -1,0 +1,480 @@
+
+/* =========================SUBSCRIBE==============================================*/
+/* =========================SUBSCRIBE==============================================*/
+/* =========================SUBSCRIBE==============================================*/
+/* =========================SUBSCRIBE==============================================*/
+/* =========================SUBSCRIBE==============================================*/
+/* =========================SUBSCRIBE==============================================*/
+/* =========================SUBSCRIBE==============================================*/
+/* =========================SUBSCRIBE==============================================*/
+/* =========================SUBSCRIBE==============================================*/
+#SIGNUP {
+  background-color: #F1F1F3;
+  min-height: 280px;
+}
+
+#SIGNUP ::placeholder {
+  color: #aaa;
+}
+
+#SIGNUP h2{
+  text-align: center;
+  font-size: 30px;
+  color: #29afc0;
+}
+
+.slim-row {
+  margin-bottom: 0px;
+}
+
+#SIGNUP p {
+  text-align: center;
+}
+
+.form {
+  max-width: 650px;
+}
+
+#SIGNUP input[type=text], #SIGNUP input[type=password]{
+  height: 40px;
+  background-color: white;
+  border: 1px solid #d2d1d1;
+  padding: 5px 0px;
+  text-indent: 20px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px 8px 8px 8px;
+}
+
+#SIGNUP input[type=text]:focus, #SIGNUP input[type=password]:focus {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.subscribe-button {
+  width: 100%;
+  height: 52px;
+  padding: 5px 0px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 8px 8px 8px 8px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  
+}
+
+.subscribe-button:hover, .subscribe-button:active, .subscribe-button:focus {
+  
+  color: #fff;
+  -webkit-box-shadow: 0px 3px 6px rgba(43,57,86,.35);
+  -moz-box-shadow: 0px 3px 6px rgba(43,57,86,.35);
+  box-shadow: 0px 3px 6px rgba(43,57,86,.35);
+}
+
+
+.subscribe-col-right {
+  padding-left: 0px;
+}
+
+.disclaimer {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #8c8d93;
+  font-weight: 200;
+}
+
+.subscribe-conf {
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+.checkmark {
+  width: 30px;
+  margin-top: -2px;
+}
+
+.row1{
+  width: 100%;
+  margin-left: 25vw;
+}
+.row1 .text{
+  padding-left: 5vw;
+}
+.row1 .button{
+  margin-bottom: 2vw;
+}
+.subutton{
+  margin-left: 15vw;
+}
+.btn{
+  
+}
+/*== Potentially unused below this point ========================*/
+
+#SUBSCRIBE .form-container {
+    width: 100%;
+    position: relative;
+    height: 500px;
+  }
+
+  #SUBSCRIBE .form-container .form-header{
+    background-color: #7695f8;
+    text-align: center;
+  }
+
+  #SUBSCRIBE .form-container .form-header .glyphicon{
+    margin-top: 20px;
+    font-size: 1.8em;
+    color: white;
+    margin-bottom: 0px;
+  }
+
+  #SUBSCRIBE .form-container .form-header h2 {
+    color: white;
+  }
+
+
+  #SUBSCRIBE .form-container .form {
+    /*margin-top: 60px*/
+  }
+
+  #SUBSCRIBE .form-container .form .form-group{
+    height: 50px;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+  }
+
+  #SUBSCRIBE .form-container .form .form-group-2{
+    display: inline;
+  }
+
+  #SUBSCRIBE .form-container .form .form-group-2 input[type=text], input[type=password]{
+    width: 45%;
+    padding: 0 10px 0 10px;
+    margin-left: 2.5%;
+    border: none;
+    border-bottom: 1px solid #989a9a;
+    height: 40px;
+  }
+
+  #SUBSCRIBE .form-container .form .form-group-2 input[type=text]:focus, input[type=password]:focus {
+    outline: none;
+    border-bottom: 2px solid #7695f8;
+  }
+
+  #SUBSCRIBE .form-container .form .form-group-1{
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  #SUBSCRIBE .form-container .form .form-group-1 input[type=text], input[type=password]{
+    width: 92%;
+    padding: 0 10px 0 10px;
+    margin-left: 2.5%;
+    border: none;
+    border-bottom: 1px solid black;
+    height: 40px;
+  }
+
+  #SUBSCRIBE .form-container .form .form-group-1 textarea{
+    width: 92%;
+    padding: 0 10px 0 10px;
+    margin-left: 2.5%;
+    border: none;
+    border-bottom: 1px solid black;
+    height: 130px;
+    resize: none;
+  }
+
+  #SUBSCRIBE .form-container .form .form-group-1 textarea:focus{
+    outline: none;
+    border-bottom: 2px solid #ff0073;
+  }
+
+  #SUBSCRIBE .form-container .form .form-group-1 input[type=text]:focus, input[type=password]:focus {
+    outline: none;
+    border-bottom: 2px solid #ff0073;
+  }
+
+  #SUBSCRIBE .form-container .form .form-group input[type=text], input[type=password]{
+    height: 50px;
+    border: 0px;
+    width: 80%;
+    text-indent: 50px;
+    background-color: white;
+  }
+
+  #SUBSCRIBE .form-container .form .form-group button {
+    width: 50%;
+    height: 50px;
+    border: 1px;
+    border-radius:10px;
+    background-color:#ff0073;
+    color: white;
+    margin-bottom:40px;
+    margin-top:40px;
+  }
+
+  #SUBSCRIBE .form-container .form .form-group span{
+    position: absolute;
+    font-size: 2em;
+    top: 11px;
+    left: 13px;
+     color: #ffd788;
+
+  }
+
+  #SUBSCRIBE .form-container .form .form-group-left{
+    float: left;
+  }
+
+  #SUBSCRIBE .form-container .form .form-group-left p{
+    font-size: 0.8em;
+    display: inline;
+    font-weight: 500;
+    color: #545555;
+  }
+
+  #SUBSCRIBE .form-container .form .form-group-left a{
+    font-size: 0.8em;
+    display: inline;
+    font-weight: 500;
+  }
+
+  #SUBSCRIBE .form-container .form .form-group-left a:hover{
+    text-decoration: none;
+  }
+
+  #SUBSCRIBE .form-container .form .form-group-right{
+    width: 150px;
+    font-size: 0.9em;
+    font-weight: 500;
+    float: right;
+    text-align: right;
+  }
+
+  #SUBSCRIBE .form-container .form .form-group-right a:hover{
+    text-decoration: none;
+  }
+
+  #SUBSCRIBE .form-container .form .form-br {
+    width: 90%;
+    border-top: 1px dotted black;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  #SUBSCRIBE .form-container .form .form-group-text{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center;
+  }
+
+  #SUBSCRIBE .form-container .form .form-group-text p{
+    font-size: 0.8em;
+    display: inline;
+    font-weight: 500;
+    color: #545555;
+  }
+
+  #SUBSCRIBE .form-container .form .form-group-text a{
+    font-size: 0.9em;
+    font-weight: 500;
+  }
+
+  #SUBSCRIBE .form-container .form .form-group-text a:hover{
+    text-decoration: none;
+  }
+
+  #SUBSCRIBE .form-container .form .form-group .icon{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 15px 0 15px;
+  }
+
+  #SUBSCRIBE .form-container .form .form-group .icon img{
+    width: 50px;
+    height: 50px;
+  }
+  #SUBSCRIBE .conf-container{
+    width: 100%;
+    position: relative;
+    background-color: #7595f8;
+    height: 200px;
+  }
+
+  #SUBSCRIBE .conf-container .header{
+    background-color: #7695f8;
+    text-align: center;
+    color: white;
+  }
+
+  #SUBSCRIBE .conf-container .header .circle{
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    border: 1px solid white;
+    margin: 0 auto;
+  }
+
+  #SUBSCRIBE .conf-container .header span{
+    margin-top: 26px;
+    font-size: 1.8em;
+  }
+
+  #SUBSCRIBE .conf-container .conf-row{
+    width: 100%;
+    text-align: center;
+  }
+
+  #SUBSCRIBE .conf-container .conf-button{
+    margin-top: 60px;
+  }
+
+  #SUBSCRIBE .conf-container .close{
+    border: 1px dotted;
+  }
+  #SUBSCRIBE .close-btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 50px;
+    width: 50px;
+    border: 0px;
+    background: transparent;
+    font-weight: 1000;
+  }
+
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .row1{
+    width: 100%;
+    margin-left: 0vw;
+  }
+  .row1 .text{
+    padding-left: 5vw;
+  }
+  .row1 .button{
+    margin-bottom: 2vw;
+  }
+  .subutton{
+    margin-left: 0vw;
+  }
+  .subscribe-button {
+    width: 50%;
+  }
+  .btn-primary{
+    width: 50%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+
+@media (min-width: 601px) and (max-width: 768px) {
+  .row1{
+    width: 100%;
+    margin-left: 18vw;
+  }
+  .subutton{
+    margin-left: 20vw;
+  }
+
+  #Subscribe input[type=text], #Subscribe input[type=password]{
+    border-radius: 8px;
+  }
+
+  .subscribe-button {
+   border-radius: 8px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #Subscribe .form-container {
+      width: 100%;
+      position: relative;
+      background-color: #7595f8;
+      height: 350px;
+    }
+  #Subscribe .form-container .form {
+    margin-top: 60px;
+  }
+}
+ /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+  .row1{
+    width: 100%;
+    margin-left: 18vw;
+  }
+  .subutton{
+    margin-left: 20vw;
+  }
+
+
+  #Subscribe .form-container .form{
+    height:200px;
+  }
+    #Subscribe .form-container .form .form-group button {
+      width: 25%;
+    }
+
+    #Subscribe .form-container .form .form-group input[type=text], input[type=password]{
+      width: 50%;
+    }
+  }
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1281px) {
+
+  .row1{
+    width: 100%;
+    margin-left: 25vw;
+  }
+  .row1 .text{
+    padding-left: 5vw;
+  }
+  .row1 .button{
+    margin-bottom: 2vw;
+  }
+  .subutton{
+    margin-left: 15vw;
+  }
+  .btn{
+    background-color: #29afc0;
+  }
+  h2{
+    font-size: 3.56rem !important;
+  }
+  #SIGNUP p{
+    font-size: 1.5em;
+    line-height:1.2em;
+  }
+  .subutton .btn {
+    font-size: 1.3em;
+  }
+
+}

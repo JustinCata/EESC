@@ -1,0 +1,32 @@
+footer{
+  margin-top: -20px;
+  background-color: #F1F1F3;
+  text-align: center;
+  height: 150px;
+}
+
+footer img {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.social-twitter {
+	width: 26px;
+}
+
+.social-medium {
+	width: 29px;
+}
+
+.social-discord {
+	padding-top: 2px;
+	width: 32px;
+}
+
+.social-mail {
+	padding-top: 2px;
+	width: 30px;
+}

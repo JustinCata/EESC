@@ -1,0 +1,147 @@
+/* =========================FAQ==============================================*/
+/* =========================FAQ==============================================*/
+/* =========================FAQ==============================================*/
+/* =========================FAQ==============================================*/
+/* =========================FAQ==============================================*/
+/* =========================FAQ==============================================*/
+/* =========================FAQ==============================================*/
+/* =========================FAQ==============================================*/
+
+/* Style the buttons that are used to open and close the accordion panel */
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover, .accordion:focus, .accordion:active {
+  background-color: #fff;
+  /*color:white;*/
+  -webkit-box-shadow: 0px 3px 8px rgba(16, 49, 119, 0.18);
+  -moz-box-shadow: 0px 3px 8px rgba(16, 49, 119, 0.18);
+  box-shadow: 0px 3px 8px rgba(16, 49, 119, 0.18);
+}
+
+#FAQ{
+  
+}
+#questions{
+  padding-right: 15% !important;
+  padding-left: 15% !important;
+}
+
+#FAQ h2{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#FAQ #questions {
+  padding: 5%;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #fff;
+  /*color: #444;*/
+  cursor: pointer;
+  font-size: 21px;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  /*padding-left: 20%;*/
+  /*transition: 0.4s;*/
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 10px;
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+.accordion div p {
+  /*font-size: 1.3em !important;*/
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+}
+
+.faq-answer {
+  padding-top: 0;
+  padding-left: 3em;
+  padding-right: 20px;
+  font-size: 17px;
+  background-color: white;
+  display: block;
+}
+
+.faq-question {
+  padding-right: 10px;
+  padding-left:  10px;
+}
+.row{
+  padding-bottom: 4vw;
+}
+.faq-row {
+  margin-bottom: 5px;
+}
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+/* =========================Responsiveness==============================================*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #questions{
+    padding-right: 5% !important;
+    padding-left: 5% !important;
+  }
+  .accordion{
+    font-size: 18px;
+  }
+  .faq-answer {
+    padding-left: 1em;
+  }
+  .faq-answer li {
+    font-size: 16px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+ #FAQ{
+   /*height: 625px;*/
+ }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #FAQ{
+    /*height: 625px;*/
+  }
+}
+
+ /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #FAQ{
+    /*height: 600px;*/
+    }
+
+  }
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1281px) {
+  .accordion{
+    font-size: 32px;
+    line-height: 1.5em;
+  }
+  .faq-answer{
+    font-size:26px;
+    line-height: 1.6em;
+  }
+}
