@@ -13,7 +13,7 @@ class Services extends Component{
             <div className="col-xs-12">
                 <h4>Our Services</h4>
             </div>
-            <div className="serviceClick col-md-4 col-xs-12">
+            <div className="serviceClick col-sm-4 col-xs-12">
             <Popup trigger={
                         <button>
                             <img src={servImg} />
@@ -26,10 +26,10 @@ class Services extends Component{
                     &times;
                     </a>
                     <div className="header"> Services >  Utility</div>
-                <div className="moreService col-md-6 col-xs-12">
+                <div className="moreService col-sm-6 col-xs-12">
                     <img src={servImg} />
                 </div>
-                <div className="moreService col-md-6 col-xs-12">
+                <div className="moreService col-sm-6 col-xs-12">
                     <h4>Utility</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae
                         magni omnis delectus nemo, maxime molestiae dolorem numquam
@@ -41,7 +41,7 @@ class Services extends Component{
                 )}
             </Popup>  
             </div>
-            <div className="serviceClick col-md-4 col-xs-12">
+            <div className="serviceClick col-sm-4 col-xs-12">
             <Popup trigger={
                         <button>
                             <img src={servImg} />
@@ -54,10 +54,10 @@ class Services extends Component{
                     &times;
                     </a>
                     <div className="header"> Services >  Paving</div>
-                <div className="moreService col-md-6 col-xs-12">
+                <div className="moreService col-sm-6 col-xs-12">
                     <img src={servImg} />
                 </div>
-                <div className="moreService col-md-6 col-xs-12">
+                <div className="moreService col-sm-6 col-xs-12">
                     <h4>Paving</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae
                         magni omnis delectus nemo, maxime molestiae dolorem numquam
@@ -69,7 +69,7 @@ class Services extends Component{
                 )}
             </Popup>  
             </div>
-            <div className="serviceClick col-md-4 col-xs-12">
+            <div className="serviceClick col-sm-4 col-xs-12">
             <Popup trigger={
                         <button>
                             <img src={servImg} />
@@ -82,10 +82,10 @@ class Services extends Component{
                     &times;
                     </a>
                     <div className="header"> Services >  Septic Tank</div>
-                <div className="moreService col-md-6 col-xs-12">
+                <div className="moreService col-sm-6 col-xs-12">
                     <img src={servImg} />
                 </div>
-                <div className="moreService col-md-6 col-xs-12">
+                <div className="moreService col-sm-6 col-xs-12">
                     <h4>Septic Tank</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae
                         magni omnis delectus nemo, maxime molestiae dolorem numquam
