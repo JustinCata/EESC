@@ -42,10 +42,7 @@ app.use(function(req,res,next){
     res.header("Access-Control-Allow-Origin", "*");
     next();
 });
-const options = {
-    key: fs.readFileSync('/etc/letsencrypt/live/metamesh.io/privkey.pem'),
-    cert: fs.readFileSync('/etc/letsencrypt/live/metamesh.io/cert.pem')
-  };
+
 
 
 // VIEWS 
