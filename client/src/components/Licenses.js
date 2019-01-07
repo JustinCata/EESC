@@ -23,7 +23,17 @@ const Licenses = ()=>{
           <p>lorem ipsum</p>
         </div>
       </div>
-      <div className='liscLogo'>
+      <div className='col-xs-12 liscLogo'>
+        <div className='liscContent'>
+            <h5>LICENSES and CERTIFICATES</h5>
+            <p>We are certified as a Small Business Enterprise (SBE) in Miami-Dade County and the 
+              Florida Department of Transportation (FDOT), Miami Dade Health Department and the 
+              Department of Business and Professional Regulation (DBPR). 
+            </p>
+        </div>
+        <div>
+          
+        </div>
       </div>
     </div>
   );
