@@ -28,7 +28,7 @@
 
 #FAQ h2{
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 #FAQ #questions {
@@ -48,7 +48,7 @@
   outline: none;
   /*padding-left: 20%;*/
   /*transition: 0.4s;*/
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   border-radius: 10px;
 }
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -60,7 +60,7 @@
 /* Style the accordion panel. Note: hidden by default */
 .panel {
   text-align: left;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   padding: 0 18px;
   background-color: white;
   display: none;

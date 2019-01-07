@@ -1,8 +1,4 @@
 import React, { Component } from 'react';
-import discord from './assets/discord.svg';
-import twitter from './assets/twitter.svg';
-import medium from './assets/icons8-medium.svg';
-import mail from './assets/mail.png';
 import logo from './assets/EESC-logo white.png'
 import './css/footer.css'; 
 

@@ -8,7 +8,7 @@
 }
 .services button{
     border: 0px;
-    font-family: 'Open Sans';
+    font-family: 'Noto Sans', sans-serif;
     background-color: white;
     padding-left: 0px;
     padding-right: 0px;
@@ -96,7 +96,7 @@
 
     }
     .services .modal{
-        max-height: 75%;
+        max-height: 70%;
     }
     .services button #septic{
         color: white;

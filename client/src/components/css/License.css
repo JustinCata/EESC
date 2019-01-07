@@ -7,11 +7,18 @@
 /* =========================How==============================================*/
 
 .Licenses{
+  font-family: 'Noto Sans', sans-serif;
   background-color: darkblue;
   color: white;
 }
+.Licenses h4{
+  font-weight: bold;
+}
  .liscContent{
    text-align: center;
+ }
+ .liscContent h4{
+   font-weight: bold;
  }
 
 /* =========================Responsiveness==============================================*/

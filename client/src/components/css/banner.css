@@ -12,7 +12,11 @@
   padding-left: 10%;
   padding-top: 10%;
 }
-
+.Banner .afterBanner{
+  padding-top: 10px;
+  background-color: #ffc800;
+  text-align: center;
+}
 .btn{
   height: 40px; 
 }
@@ -103,7 +107,9 @@
   .sectionTitle {
     text-align: center;
   }
-
+  #bannerPhoto {
+    margin-top: 100px;
+  }
    .Banner .sectionTitle .headingTitle {
     font-size: 26px !important;
     line-height: 1.2em;

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Popup from 'reactjs-popup';
-import servImg from './assets/blue_banner.png';
+import servImg from './assets/bannerEmpire.png';
 
 import './css/services.css';
 
@@ -11,7 +11,7 @@ class Services extends Component{
         <div className="services col-xs-12">
 
             <div className="col-xs-12">
-                <h4>Our Services</h4>
+                <h4 style={{ fontWeight: 'bold', textTransform: 'uppercase'}}>Our Services</h4>
             </div>
             <div className="serviceClick col-sm-4 col-xs-12">
             <Popup trigger={

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Logo from './assets/Logos/color_logo.png';
+import Logo from './assets/EESC-logo.png';
 import './css/navbar.css';
 
 class Navbar extends Component {
@@ -20,7 +20,7 @@ class Navbar extends Component {
             </div>
             <div id="navbar" className="collapse navbar-collapse">
             <ul className="nav navbar-nav">
-                <li><a id="nav-how" className="js-scroll-trigger" href="#Services">Services</a></li>
+                <li><a id="nav-services" className="js-scroll-trigger" href="#Services">Services</a></li>
                 <li><a id="nav-what" className="js-scroll-trigger" href="#Licenses">Licenses</a></li>
                 <li><a id="nav-who" className="js-scroll-trigger" href="#WHO">Projects</a></li>
                 <li><a id="nav-faq" className="js-scroll-trigger" href="#FAQ">Contact Us</a></li>
