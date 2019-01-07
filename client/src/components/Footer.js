@@ -3,20 +3,34 @@ import discord from './assets/discord.svg';
 import twitter from './assets/twitter.svg';
 import medium from './assets/icons8-medium.svg';
 import mail from './assets/mail.png';
-import './css/footer.css';
+import logo from './assets/EESC-logo white.png'
+import './css/footer.css'; 
 
 class Footer extends Component{
 
     render(){
       return(
         <footer>
-          <div className="row">
-            <a href="https://twitter.com/Metamesh_io"><img className="social-twitter" src={twitter} /></a>
-            <a href="https://medium.com/metamesh" ><img className="social-medium" src={medium} /></a>
-            <a href="https://discord.gg/Y2cQHVx" ><img className="social-discord" src={discord} /></a>
-            <a href="mailto:hello@metamesh.io"><img className="social-mail" src={mail} /></a>
+          <div className="footwrap col-xs-12">
+          <div className="col-xs-12 col-sm-6">
+            <img src={logo} />
           </div>
-          <p>Copyright &copy; Empire Engineering Services Corp. All Rights Reserved 2019</p>
+          <div  className="text col-xs-12 col-sm-6">
+            <p>CORPORATE OFFICE</p>
+            <p>9380 Sw 72nd Street | Miami, FL 33173</p>
+            <p>Office: <a href="tel:3058855255">305.885.5255</a></p>
+            <p>Cell: <a href="tel:7864888657">786.488.8657</a></p>
+            <a href="mailto:empireengineering@hotmail.com">Empireengineering@hotmail.com</a>
+            <br />
+            <br />
+            <a className="btn">Se habla Español</a>
+          </div>
+          </div>
+          
+          <div className="col-xs-12" id="copyright">
+          <p >Copyright &copy; Empire Engineering Services Corp. All Rights Reserved 2019</p>
+          </div>
+          
         </footer>
       );
     }

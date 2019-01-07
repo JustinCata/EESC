@@ -17,7 +17,7 @@ class Services extends Component{
             <Popup trigger={
                         <button>
                             <img src={servImg} />
-                            <p>Utility</p>
+                            <p id="utility">Utility</p>
                         </button>
                         } modal>
                 {close => (
@@ -45,7 +45,7 @@ class Services extends Component{
             <Popup trigger={
                         <button>
                             <img src={servImg} />
-                            <p>Paving</p>
+                            <p id="paving">Paving</p>
                         </button>
                         } modal>
                 {close => (
@@ -73,7 +73,7 @@ class Services extends Component{
             <Popup trigger={
                         <button>
                             <img src={servImg} />
-                            <p>Septic Tank</p>
+                            <p id="septic">Septic Tank</p>
                         </button>
                         } modal>
                 {close => (

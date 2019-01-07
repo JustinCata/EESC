@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios'
 import Navbar from './components/Navbar';
+
 import BannerDemo from './components/BannerDemo';
 import Services from './components/Services';
 import Footer from './components/Footer';
@@ -25,6 +26,7 @@ class App extends Component {
         <BannerDemo />
         <Services />
         <Licenses />
+        
         <Footer />
       </div>
     );

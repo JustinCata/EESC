@@ -14,7 +14,7 @@
     padding-right: 0px;
 }
 .modal {
-    font-size: 12px;
+    font-size: 17px;
     display: block;
     width: 100%;
     background-color: white;
@@ -85,6 +85,9 @@
     .services img{
         opacity: 0.7;
     }
+    .modal img{
+        opacity: 1;
+    }
     .services button{
         background-color: black;
         padding-bottom: 0px;
@@ -92,7 +95,28 @@
         margin-bottom: 20px;
 
     }
-    .services button p{
-        display: none;
+    .services .modal{
+        max-height: 75%;
+    }
+    .services button #septic{
+        color: white;
+        position: absolute;
+        top: 40%;
+        left: 37%;
+        font-size: 25px;
+    }
+    .services button #utility{
+        color: white;
+        position: absolute;
+        top: 40%;
+        left: 43%;
+        font-size: 25px;
+    }
+    .services button #paving{
+        color: white;
+        position: absolute;
+        top: 40%;
+        left: 43%;
+        font-size: 25px;
     }
 }
