@@ -21,10 +21,10 @@ class Navbar extends Component {
             <div id="navbar" className="collapse navbar-collapse">
             <ul className="nav navbar-nav">
                 <li><a id="nav-services" className="js-scroll-trigger" href="#Services">Services</a></li>
-                <li><a id="nav-what" className="js-scroll-trigger" href="#Licenses">Licenses</a></li>
-                <li><a id="nav-who" className="js-scroll-trigger" href="#WHO">Projects</a></li>
-                <li><a id="nav-faq" className="js-scroll-trigger" href="#FAQ">Contact Us</a></li>
-                <li><a id="nav-signup" className="js-scroll-trigger" href="#SIGNUP">786.488.8657</a></li>
+                <li><a id="nav-licenses" className="js-scroll-trigger" href="#Licenses">Licenses</a></li>
+                <li><a id="nav-projects" className="js-scroll-trigger" href="#Projects">Projects</a></li>
+                <li><a id="nav-faq" className="js-scroll-trigger" href="/Contact">Contact Us</a></li>
+                <li><a className="js-scroll-trigger" href="tel:7864888657">786.488.8657</a></li>
             </ul>
             </div>
         </div>
