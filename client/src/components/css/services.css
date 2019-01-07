@@ -1,0 +1,98 @@
+.services {
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+.services img{
+    width: 100%;
+}
+.services button{
+    border: 0px;
+    font-family: 'Open Sans';
+    background-color: white;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.modal {
+    font-size: 12px;
+    display: block;
+    width: 100%;
+    background-color: white;
+    max-height: 50%;
+  }
+  .modal > .header {
+      background-color: #104D95;
+      color: white;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+  }
+  .modal > .content {
+    width: 100%;
+    padding: 10px 5px;
+  }
+  .modal img{
+      width: 100%;
+  }
+  .modal h4{
+      margin: 1.52rem 0 .912rem 0 !important;
+  }
+  .modal .moreService {
+      margin-top: 20px;
+  }
+  .modal .btn {
+      background-color: #FFC801;
+      border-radius: 5px;
+      color: black;
+      font-size: 14px;
+      text-transform: none;
+    height: 25px;
+    line-height: inherit;
+  }
+  .modal > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+  }
+  .modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    opacity: 1;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: 20px;
+    top: 5px;
+    font-size: 24px;
+    color: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+  }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .services{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .serviceClick{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .services img{
+        opacity: 0.7;
+    }
+    .services button{
+        background-color: black;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        margin-bottom: 20px;
+
+    }
+    .services button p{
+        display: none;
+    }
+}
