@@ -34,7 +34,7 @@ nav {
 
 }
 .navbar-inverse .navbar-nav>li>a {
-  color: #ff0073;
+  color:black;
   font-size: 25px !important;
 }
 .navbar-inverse .navbar-toggle {
@@ -75,6 +75,13 @@ nav .container {
 .navbar-inverse .navbar-collapse {
   border-top: 0px;
   border-color: transparent;
+}
+
+#nav-faq{
+  margin-top: 10px;
+  background-color: yellow;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 /* =========================Responsiveness==============================================*/
