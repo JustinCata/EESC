@@ -16,7 +16,7 @@ class Footer extends Component{
             <a href="https://discord.gg/Y2cQHVx" ><img className="social-discord" src={discord} /></a>
             <a href="mailto:hello@metamesh.io"><img className="social-mail" src={mail} /></a>
           </div>
-          <p>Copyright &copy; Metamesh Inc. All Rights Reserved 2018</p>
+          <p>Copyright &copy; Empire Engineering Services Corp. All Rights Reserved 2019</p>
         </footer>
       );
     }

@@ -127,12 +127,12 @@ componentDidMount() {
         <Navbar />
         {/*<NewNav />*/}
         <BannerDemo />
-        <Why count={this.state.count} />
-        <How />
-        <What />
-        <Who />
-        <FAQ />
-        <Subscribe />
+        {/* <Why count={this.state.count} /> */}
+        {/* <How /> */}
+        {/* <What /> */}
+        {/* <Who /> */}
+        {/* <FAQ /> */}
+        {/* <Subscribe /> */}
         <Footer />
       </div>
     );

@@ -39,12 +39,12 @@ Go to browser and go to http://localhost:3000/
 
 ## Development Sections
 
-- Demo + Navbar + Banner
-- How it works
-- Fund
-- Subscribe
-- In depth description (Sell, share, earn)
-- Roadmap
+- Navbar sections
+- Main Image
+- Contact 
+- Google Map
+- Services
+- Popup of services
 - FAQ
 
 ### React Documentation
