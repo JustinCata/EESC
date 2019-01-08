@@ -7,6 +7,7 @@ import Services from './components/Services';
 import Footer from './components/Footer';
 import './App.css';
 import Licenses from './components/Licenses';
+import Projects from './components/Projects';
 import phone from './components/assets/phone.png';
 
 class App extends Component {
@@ -30,7 +31,7 @@ class App extends Component {
         <BannerDemo />
         <Services />
         <Licenses />
-        
+        <Projects />
         <Footer />
       </div>
     );

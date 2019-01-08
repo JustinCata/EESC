@@ -14,28 +14,28 @@ const Licenses = ()=>{
     <div>
       <div id='Licenses' className='col-xs-12 Licenses'>
         <div className='liscCol col-xs-12 col-sm-4'>
-          <div className='col-xs-4 col-sm-3 icon'>
+          <div className='col-xs-4 col-sm-4 icon'>
             <img src={Icon1} alt="License1" />  
           </div>
-          <div className='col-xs-8 col-sm-9 text'>
+          <div className='col-xs-8 col-sm-8 text'>
             <h6>Insured</h6>
             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
           </div>      
         </div>
         <div className='liscCol col-xs-12 col-sm-4'>
-        <div className='col-xs-4 col-sm-3 icon'>
+        <div className='col-xs-4 col-sm-4 icon'>
             <img src={Icon2} alt="License2" />  
           </div>
-          <div className='col-xs-8 col-sm-9 text'>
+          <div className='col-xs-8 col-sm-8 text'>
             <h6>Experienced</h6>
             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
           </div> 
         </div>
         <div className='liscCol col-xs-12 col-sm-4'>
-        <div className='col-xs-4 col-sm-3 icon'>
+        <div className='col-xs-4 col-sm-4 icon'>
             <img src={Icon3} alt="License3" />  
           </div>
-          <div className='col-xs-8 col-sm-9 text'>
+          <div className='col-xs-8 col-sm-8 text'>
             <h6>Bonded Entity</h6>
             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
           </div> 
