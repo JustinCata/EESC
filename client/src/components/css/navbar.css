@@ -22,7 +22,7 @@ nav {
   width: 215px;
   position: fixed;
   top: 10px;
-  left: 100px;
+  left: 40px;
 }
 
 .navbar-inverse{
@@ -42,7 +42,7 @@ nav {
   
 }
 .navbar-inverse .navbar-nav>li>a:hover {
-  color: #7695f8;
+  color: #0A2F5E;
 }
 .navbar-inverse .navbar-toggle:hover {
   background-color: #ff0073;
@@ -214,6 +214,7 @@ nav .container {
 
   .Navbar .MetaNav {
     width: 230px;
+    z-index: -100;
     top: 5px;
     left: 75px;
   }

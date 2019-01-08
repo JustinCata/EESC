@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Logo from './assets/EESC-logo.png';
+import Logo from './assets/EmpireColor.png';
 import './css/navbar.css';
 
 class Navbar extends Component {

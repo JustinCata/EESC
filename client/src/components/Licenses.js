@@ -11,8 +11,8 @@ import './css/License.css';
 
 const Licenses = ()=>{
   return(
-    <div id='Licenses'>
-      <div className='col-xs-12 Licenses'>
+    <div>
+      <div id='Licenses' className='col-xs-12 Licenses'>
         <div className='col-xs-12 col-sm-4'>
           <div className='col-xs-12 col-sm-6'>
           <img src={Icon1} alt="License" />  

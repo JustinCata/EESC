@@ -3,6 +3,9 @@
     color: black;
     text-align: center;
 }
+.services h4{
+    color: #0A2F5E;
+}
 .services img{
     width: 100%;
 }
