@@ -100,19 +100,16 @@ nav .container {
 /* =========================Responsiveness==============================================*/
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 349px) {
   /*nav {
     height:80px;
   }*/
   .navbar-inverse .navbar-nav>li>a {
     font-size:15px !important;
   }
-  /*.Navbar .MetaNav {
-    width: 75%;
-    position: fixed;
-    top:15px;
-
-  }*/
+  .Navbar .MetaNav {
+    left: 35px !important;
+  }
   /*#navbar {
     position: relative;
     top:15px;
