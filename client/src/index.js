@@ -10,7 +10,7 @@ ReactDOM.render(
 <Router>
     <div>
       <Route exact path='/'component={App}/> 
-      <Route exact path='/ContactUs' component={ContactUs} />    
+      <Route exact path='/contact' component={ContactUs} />    
     </div>
 </Router>, document.getElementById('root'));
 registerServiceWorker();

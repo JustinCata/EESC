@@ -16,14 +16,14 @@ class Navbar extends Component {
                 <span className="icon-bar"></span>
                 <span className="icon-bar"></span>
             </button>
-            <a className="navbar-brand"><img className="MetaNav" src={Logo} alt="Logo" /></a>
+            <a href="/" className="navbar-brand"><img className="MetaNav" src={Logo} alt="Logo" /></a>
             </div>
             <div id="navbar" className="collapse navbar-collapse">
             <ul className="nav navbar-nav">
                 <li><a id="nav-services" className="js-scroll-trigger" href="#Services">Services</a></li>
                 <li><a id="nav-licenses" className="js-scroll-trigger" href="#Licenses">Licenses</a></li>
                 <li><a id="nav-projects" className="js-scroll-trigger" href="#Projects">Projects</a></li>
-                <li><a id="nav-faq" className="js-scroll-trigger" href="/Contact">Contact Us</a></li>
+                <li><a id="nav-faq" className="js-scroll-trigger" href="/contact">Contact Us</a></li>
                 <li><a className="js-scroll-trigger" href="tel:7864888657">786.488.8657</a></li>
             </ul>
             </div>
