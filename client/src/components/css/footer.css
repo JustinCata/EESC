@@ -66,6 +66,10 @@ footer img {
 	padding-top: 2px;
 	width: 30px;
 }
+#copyright p{
+  margin-top: 5px;
+  font-size: 10px;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {

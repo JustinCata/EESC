@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './assets/EESC-logo white.png'
+import logo from './assets/EmpireWhite.png'
 import './css/footer.css'; 
 
 class Footer extends Component{
@@ -16,10 +16,10 @@ class Footer extends Component{
             <p>9380 Sw 72nd Street | Miami, FL 33173</p>
             <p>Office: <a href="tel:3058855255">305.885.5255</a></p>
             <p>Cell: <a href="tel:7864888657">786.488.8657</a></p>
-            <a href="mailto:empireengineering@hotmail.com">Empireengineering@hotmail.com</a>
+            <a href="mailto:empireengineering@hotmail.com?subject=Message%20From%20Website">Empireengineering@hotmail.com</a>
             <br />
             <br />
-            <a className="btn">Se habla Español</a>
+            <a className="btn" href="mailto:empireengineering@hotmail.com?subject=Message%20From%20Website">Se habla Español</a>
           </div>
           </div>
           

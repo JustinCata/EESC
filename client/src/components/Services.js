@@ -10,11 +10,11 @@ import './css/services.css';
 class Services extends Component{
   render(){
   return(
-    <div id='Services' className='Services'>
-        <div className="services col-xs-12">
+    <div className='Services'>
+        <div  className="services col-xs-12">
 
-            <div className="col-xs-12">
-                <h4 style={{ fontWeight: 'bold', textTransform: 'uppercase'}}>Our Services</h4>
+            <div id='Services' className="col-xs-12">
+                <h4 style={{ fontWeight: 'bold', textTransform: 'uppercase', paddingTop: '7px'}}>Our Services</h4>
             </div>
             <div className="serviceClick col-sm-4 col-xs-12">
             <Popup trigger={
@@ -38,7 +38,7 @@ class Services extends Component{
                         magni omnis delectus nemo, maxime molestiae dolorem numquam
                         mollitia, voluptate ea, accusamus excepturi deleniti ratione
                         sapiente! Laudantium, aperiam doloribus. Odit, aut.</p>
-                    <a className="btn">Free Consultation</a>
+                    <a className="btn" href="mailto:empireengineering@hotmail.com?subject=Utility%20Consultation">Free Consultation</a>
                 </div>
                 </div>
                 )}
@@ -66,7 +66,7 @@ class Services extends Component{
                         magni omnis delectus nemo, maxime molestiae dolorem numquam
                         mollitia, voluptate ea, accusamus excepturi deleniti ratione
                         sapiente! Laudantium, aperiam doloribus. Odit, aut.</p>
-                    <a className="btn">Free Consultation</a>
+                    <a className="btn" href="mailto:empireengineering@hotmail.com?subject=Paving%20Consultation">Free Consultation</a>
                 </div>
                 </div>
                 )}
@@ -94,7 +94,7 @@ class Services extends Component{
                         magni omnis delectus nemo, maxime molestiae dolorem numquam
                         mollitia, voluptate ea, accusamus excepturi deleniti ratione
                         sapiente! Laudantium, aperiam doloribus. Odit, aut.</p>
-                    <a className="btn">Free Consultation</a>
+                    <a className="btn" href="mailto:empireengineering@hotmail.com?subject=Septic%20Tank%20Consultation">Free Consultation</a>
                 </div>
                 </div>
                 )}

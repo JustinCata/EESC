@@ -10,8 +10,10 @@
   font-family: 'Noto Sans', sans-serif;
   background-color: #104D95;
   color: white;
-  padding-left: 200px;
-  padding-right: 250px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 .Licenses h6{
   font-weight: bold;
@@ -22,8 +24,13 @@
  .liscContent{
    text-align: center;
  }
- .liscContent h6{
+ .liscContent h4{
    font-weight: bold;
+   color: #0A2F5E;
+ }
+ .liscContent img {
+   width: 50%;
+   margin-bottom: 20px;
  }
 
  .icon{
@@ -33,7 +40,7 @@
  }
 
  .text{
-   padding: 0;
+   /* padding: 0; */
  }
 
 /* =========================Responsiveness==============================================*/
@@ -53,38 +60,53 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 770px) {
   .Licenses{
-    padding: 0;
+    padding-top: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
+  .liscContent img {
+    width: 70%;
+    margin-bottom: 20px;
+  }
+  .liscCol{
+    padding-right: 40px;
+    margin-bottom: 10px;
+  }
+
   .icon{
-    margin-top: 10px;
+    /* width: 40%; */
+    margin-top: 20px;
     margin-bottom: 0;
     text-align: center;
   }
+  .icon img{
+    width: 60%;
+  }
   .text{
     padding: 0;
-    text-align: center;
+    text-align: left;
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 771px) {
-  .Licenses{
+  /* .Licenses{
     padding-left: 50px;
   padding-right: 50px;
-  }
+  } */
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 860px) {
-  .Licenses{
+  /* .Licenses{
     padding-left: 100px;
   padding-right: 100px;
-  }
+  } */
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .Licenses{
+  /* .Licenses{
     padding-left: 200px;
   padding-right: 200px;
-  }
+  } */
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1281px) {
