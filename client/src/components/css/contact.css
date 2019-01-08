@@ -12,3 +12,21 @@
     font-weight: 500;
     font-size: 20px;
 }
+
+.visit {
+    background-color:#104D95;
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    padding: 10px;
+    width:20%
+}
+
+.visit p {
+    font-size: 15px;
+    margin: 0 0 0px;
+}
+
+.call-mail {
+    margin-top: 150px;
+}

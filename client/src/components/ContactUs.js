@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
 import Navbar from './Navbar';
 import { Map, GoogleApiWrapper, Marker, InfoWindow } from 'google-maps-react';
-
+import phone from './assets/Design (39).png';
+import mail from './assets/Design (38).png';
+import Footer from './Footer.js';
 import './css/contact.css';
 import './css/services.css';
+
 
 
 
@@ -22,7 +25,8 @@ class Contact extends Component {
         <div>
         <Navbar />
         </div>
-          <div className="headerContact"> Contact Us</div>
+          <div className="headerContact "> Contact Us</div>
+          <div>
 
           <Map
             google={this.props.google}
@@ -41,9 +45,40 @@ class Contact extends Component {
             </Marker>
 
           </Map>
+
+          </div>
+
+          <div className= "col-md-12 visit"> 
+            Visit Us
+            <p>9380 Sw 72nd Street Suite B140,  </p>
+            <p>Miami, FL 33173 </p>
+          </div>
+          <div className= "col-md-12 call-mail">
+            <div className= "col-md-6">
+              <div className= 'col-md-2'>
+                <img src= {phone}/>
+              </div>
+              <div className= 'col-md-10'>
+                <p>Call us</p>
+                <h4>305.885.5255 | 786.488.8657</h4>
+              </div>
+            </div>
+            <div className= "col-md-6">
+              <div className= 'col-md-2 '>
+                <img src= {mail}/>
+              </div>
+              <div className= 'col-md-10'>
+              <p>Have any questions? Se habla Español</p>
+                <h4>Empireengineering@hotmail.com</h4>
+              </div>
+            </div>
+            
+            
           
-          <div>
-            <p>Visit Us </p>
+            </div>
+
+        
+            <Footer/>
           </div>
 
 
@@ -51,9 +86,7 @@ class Contact extends Component {
 
 
        
-    
-      
-      </div> 
+  
        
       
     );
@@ -62,5 +95,5 @@ class Contact extends Component {
 
 // export default Contact;
 export default GoogleApiWrapper({
-  apiKey: 'API KEY'
+  apiKey: ''
 })(Contact);
