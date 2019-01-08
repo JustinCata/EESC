@@ -28,5 +28,17 @@
 }
 
 .call-mail {
-    margin-top: 150px;
+    margin-top: 108px;;
+    padding: 80px;
+}
+
+.call-mail img{
+    width: 100%;
+
+}
+
+.call-mail h4{
+    font-size: 20px;
+    margin: 0px;
+    font-weight: bold;
 }
