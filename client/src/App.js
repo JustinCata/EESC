@@ -7,6 +7,7 @@ import Services from './components/Services';
 import Footer from './components/Footer';
 import './App.css';
 import Licenses from './components/Licenses';
+import phone from './components/assets/phone.png';
 
 class App extends Component {
 
@@ -22,6 +23,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <a id="phone" href="tel:7864888657">
+          <img  src={phone} />
+        </a>
         <Navbar />
         <BannerDemo />
         <Services />

@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import Popup from 'reactjs-popup';
 import servImg from './assets/bannerEmpire.png';
+import septic from './assets/septic.jpg';
+import utility from './assets/utility.jpg';
+import paving from './assets/paving.jpg';
 
 import './css/services.css';
 
@@ -16,7 +19,7 @@ class Services extends Component{
             <div className="serviceClick col-sm-4 col-xs-12">
             <Popup trigger={
                         <button>
-                            <img src={servImg} />
+                            <img src={utility} />
                             <p id="utility">Utility</p>
                         </button>
                         } modal>
@@ -27,9 +30,9 @@ class Services extends Component{
                     </a>
                     <div className="header"> Services >  Utility</div>
                 <div className="moreService col-sm-6 col-xs-12">
-                    <img src={servImg} />
+                    <img src={utility} />
                 </div>
-                <div className="moreService col-sm-6 col-xs-12">
+                <div className="moreService text col-sm-6 col-xs-12">
                     <h4>Utility</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae
                         magni omnis delectus nemo, maxime molestiae dolorem numquam
@@ -44,7 +47,7 @@ class Services extends Component{
             <div className="serviceClick col-sm-4 col-xs-12">
             <Popup trigger={
                         <button>
-                            <img src={servImg} />
+                            <img src={paving} />
                             <p id="paving">Paving</p>
                         </button>
                         } modal>
@@ -55,9 +58,9 @@ class Services extends Component{
                     </a>
                     <div className="header"> Services >  Paving</div>
                 <div className="moreService col-sm-6 col-xs-12">
-                    <img src={servImg} />
+                    <img src={paving} />
                 </div>
-                <div className="moreService col-sm-6 col-xs-12">
+                <div className="moreService text col-sm-6 col-xs-12">
                     <h4>Paving</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae
                         magni omnis delectus nemo, maxime molestiae dolorem numquam
@@ -72,7 +75,7 @@ class Services extends Component{
             <div className="serviceClick col-sm-4 col-xs-12">
             <Popup trigger={
                         <button>
-                            <img src={servImg} />
+                            <img src={septic} />
                             <p id="septic">Septic Tank</p>
                         </button>
                         } modal>
@@ -83,9 +86,9 @@ class Services extends Component{
                     </a>
                     <div className="header"> Services >  Septic Tank</div>
                 <div className="moreService col-sm-6 col-xs-12">
-                    <img src={servImg} />
+                    <img src={septic} />
                 </div>
-                <div className="moreService col-sm-6 col-xs-12">
+                <div className="moreService text col-sm-6 col-xs-12">
                     <h4>Septic Tank</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae
                         magni omnis delectus nemo, maxime molestiae dolorem numquam
