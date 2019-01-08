@@ -4,6 +4,8 @@ import Sell from './assets/How/sell.jpeg';
 import Share from './assets/How/share.jpeg';
 import Earn from './assets/How/earn.jpeg';
 import Icon1 from './assets/InsuredIcon.png';
+import Icon2 from './assets/ExperiencedIcon.png';
+import Icon3 from './assets/BondedEntityIcon.png';
 import './css/License.css';
 
 

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Navbar from './components/Navbar';
+import Navbar from './Navbar';
 import './css/contact.css';
 
 class Contact extends Component {
