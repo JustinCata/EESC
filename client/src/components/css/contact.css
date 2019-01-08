@@ -7,7 +7,7 @@
     text-align: left;
     padding-top: 15px;
     padding-bottom: 15px;
-    margin-top: 115px;
+    margin-top: 100px;
     padding-left: 42px;
     font-weight: 500;
     font-size: 20px;
@@ -42,3 +42,50 @@
     margin: 0px;
     font-weight: bold;
 }
+
+.call {
+    text-align: right;
+}
+#phone{
+    display: none;
+  }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .call-mail {
+        display: none;
+    }
+    #phone{
+        display: block;
+        position: fixed;
+        bottom: 40px;
+        right: 20px;
+        z-index: 1000;
+      }
+      #phone img{
+        box-shadow: 0 0 10px rgba(0,0,0,2);
+        border-radius: 100%;
+        width: 70px;
+      }
+      .visit {
+        background-color:#104D95;
+        color: white;
+        
+        margin-top: 0px;
+        padding: 10px;
+        width:30%;
+        height: 200px;
+    }
+    .visit .title {
+        display: none;
+    }
+    }
+    /* small devices (phones, 601px and down) */
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+    .call-mail {
+        margin-top: 35px;
+        margin-bottom: 20px;
+        padding-left: 0px;
+        padding-right: 150px;
+    }
+    }
+  
