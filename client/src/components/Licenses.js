@@ -11,24 +11,34 @@ import './css/License.css';
 
 const Licenses = ()=>{
   return(
-    <div>
-      <div id='Licenses' className='col-xs-12 Licenses'>
+    <div id='Licenses'>
+      <div className='col-xs-12 Licenses'>
         <div className='col-xs-12 col-sm-4'>
-          <div className='col-xs-12 col-sm-6'>
-          <img src={Icon1} alt="License" />  
+          <div className='col-xs-12 col-sm-6 icon'>
+            <img src={Icon1} alt="License1" />  
           </div>
-          <div className='col-xs-12 col-sm-6'>
-            <h4>Insured</h4>
+          <div className='col-xs-12 col-sm-6 text'>
+            <h6>Insured</h6>
             <p>lorem ipsum</p>
           </div>      
         </div>
         <div className='col-xs-12 col-sm-4'>
-          <h4>Experienced</h4>
-          <p>lorem ipsum</p>
+        <div className='col-xs-12 col-sm-6 icon'>
+            <img src={Icon2} alt="License2" />  
+          </div>
+          <div className='col-xs-12 col-sm-6 text'>
+            <h6>Experienced</h6>
+            <p>lorem ipsum</p>
+          </div> 
         </div>
         <div className='col-xs-12 col-sm-4'>
-          <h4>Bonded Entity</h4>
-          <p>lorem ipsum</p>
+        <div className='col-xs-12 col-sm-6 icon'>
+            <img src={Icon3} alt="License3" />  
+          </div>
+          <div className='col-xs-12 col-sm-6 text'>
+            <h6>Bonded Entity</h6>
+            <p>lorem ipsum</p>
+          </div> 
         </div>
       </div>
       <div className='col-xs-12 liscLogo'>
