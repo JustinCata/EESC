@@ -24,11 +24,11 @@ app.get('*', function (req, res) {
 
 
 // Connect DB
-mongoose.Promise = global.Promise;
-mongoose.connect(secret.database);
-mongoose.connection
-    .once('open', () => console.log('MongoDB...ENGAGED'))
-    .on('error', err => console.error(err))
+// mongoose.Promise = global.Promise;
+// mongoose.connect(secret.database);
+// mongoose.connection
+//     .once('open', () => console.log('MongoDB...ENGAGED'))
+//     .on('error', err => console.error(err))
 
  
 // Middleware
