@@ -24,10 +24,10 @@ class Contact extends Component {
     return (
       <div>
         <div>
-        <Navbar />
+        <Navbar match={this.props.match} />
         </div>
           <div className="headerContact "> Contact Us</div>
-          <div>
+          <div id="Mapmap" className="col-xs-12">
 
           <Map
             google={this.props.google}
@@ -49,7 +49,7 @@ class Contact extends Component {
 
           </div>
 
-          <div className= "col-md-12 visit"> 
+          <div id="visit" className= "col-md-12 visit"> 
             <p className='title'>Visit Us</p>
             <p>9380 Sw 72nd Street Suite B140,  </p>
             <p>Miami, FL 33173 </p>
@@ -59,7 +59,7 @@ class Contact extends Component {
           <img  src={phone2} />
           </a>
 
-          <div className= "col-md-12 call-mail">
+          <div id="callMail" className= "col-md-12 call-mail">
             <div className= "col-sm-6">
               <div className= 'col-sm-3'>
                 <img src= {phone}/>

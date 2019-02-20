@@ -27,7 +27,7 @@ class App extends Component {
         <a id="phone" href="tel:7864888657">
           <img  src={phone} />
         </a>
-        <Navbar />
+        <Navbar match={this.props.match} />
         <BannerDemo />
         <Services />
         <Licenses />

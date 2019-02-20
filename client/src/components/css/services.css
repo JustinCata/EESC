@@ -4,6 +4,10 @@
     text-align: center;
     margin-top: 38px;
     margin-bottom: 50px;
+    padding-top: 0px;
+}
+#Services{
+    padding-top: 30px;
 }
 .services h4{
     color: #0A2F5E;
@@ -78,12 +82,17 @@
     border: 1px solid #cfcece;
     font-weight: 400;
   }
-
+  #Projects{
+      padding-top: 30px;
+  }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    
     .services{
         padding-left: 0px;
         padding-right: 0px;
+        margin-bottom: 0px;
+        margin-top: 0px;
     }
     .serviceClick{
         padding-left: 0px;
@@ -104,29 +113,22 @@
 
     }
     .services .modal{
-        max-height: 55%;
-        margin-top: 120px;
+        max-height: 37%;
+        margin-top: 50%;
         width: 100%;
     }
     .services button #septic{
         color: white;
         position: absolute;
         top: 40%;
-        left: 34%;
+        left: 19%;
         font-size: 25px;
     }
     .services button #utility{
         color: white;
         position: absolute;
         top: 40%;
-        left: 41%;
-        font-size: 25px;
-    }
-    .services button #paving{
-        color: white;
-        position: absolute;
-        top: 40%;
-        left: 41%;
+        left: 17%;
         font-size: 25px;
     }
     .modal .text{

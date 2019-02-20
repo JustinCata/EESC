@@ -18,8 +18,7 @@ const Licenses = ()=>{
             <img src={Icon1} alt="License1" />  
           </div>
           <div className='col-xs-8 col-sm-8 text'>
-            <h6>Insured</h6>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+            <h5 style={{ marginTop: '40px'}}>Insured</h5>
           </div>      
         </div>
         <div className='liscCol col-xs-12 col-sm-4'>
@@ -27,8 +26,7 @@ const Licenses = ()=>{
             <img src={Icon2} alt="License2" />  
           </div>
           <div className='col-xs-8 col-sm-8 text'>
-            <h6>Experienced</h6>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+            <h5 style={{ marginTop: '25px'}}>25 Years of Experience</h5>
           </div> 
         </div>
         <div className='liscCol col-xs-12 col-sm-4'>
@@ -36,8 +34,8 @@ const Licenses = ()=>{
             <img src={Icon3} alt="License3" />  
           </div>
           <div className='col-xs-8 col-sm-8 text'>
-            <h6>Bonded Entity</h6>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+            <h5 style={{ marginTop: '40px'}}>A Bonded Entity</h5>
+            
           </div> 
         </div>
       </div>

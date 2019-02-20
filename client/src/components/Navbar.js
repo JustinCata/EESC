@@ -3,7 +3,24 @@ import Logo from './assets/EmpireColor.jpeg';
 import './css/navbar.css';
 
 class Navbar extends Component {
-
+  constructor(props) {
+    super(props);
+    this.state = {
+      services: '#Services',
+      licenses: '#Licenses',
+      projects: '#Projects'
+    }
+  }
+  componentDidMount() {
+    let path = this.props.match.path;
+    if (path === '/contact') {
+      this.setState({ 
+        services: 'https://empireesc.com/#Services',
+        licenses: 'https://empireesc.com/#Licenses',
+        projects: 'https://empireesc.com/#Projects'
+      })
+    }
+  }
   render() {
     return (
 
@@ -20,11 +37,11 @@ class Navbar extends Component {
             </div>
             <div id="navbar" className="collapse navbar-collapse">
             <ul className="nav navbar-nav">
-                <li><a id="nav-services" className="js-scroll-trigger" href="#Services">Services</a></li>
-                <li><a id="nav-licenses" className="js-scroll-trigger" href="#Licenses">Licenses</a></li>
-                <li><a id="nav-projects" className="js-scroll-trigger" href="#Projects">Projects</a></li>
+                <li><a id="nav-services" className="js-scroll-trigger" href={this.state.services}>Services</a></li>
+                <li><a id="nav-licenses" className="js-scroll-trigger" href={this.state.licenses}>Licenses</a></li>
+                <li><a id="nav-projects" className="js-scroll-trigger" href={this.state.projects}>Projects</a></li>
                 <li><a id="nav-faq" className="js-scroll-trigger" href="/contact">Contact Us</a></li>
-                <li><a className="js-scroll-trigger" href="tel:7864888657">786.488.8657</a></li>
+                <li><a className="js-scroll-trigger" href="tel:3058855255">305.885.5255</a></li>
             </ul>
             </div>
         </div>

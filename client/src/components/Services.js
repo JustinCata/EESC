@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Popup from 'reactjs-popup';
 import servImg from './assets/bannerEmpire.png';
-import septic from './assets/septic.jpg';
+import septic from './assets/wastewater.jpg';
 import utility from './assets/utility.jpg';
 import paving from './assets/paving.jpg';
 
@@ -16,11 +16,11 @@ class Services extends Component{
             <div id='Services' className="col-xs-12">
                 <h4 style={{ fontWeight: 'bold', textTransform: 'uppercase', paddingTop: '7px'}}>Our Services</h4>
             </div>
-            <div className="serviceClick col-sm-4 col-xs-12">
+            <div className="serviceClick col-sm-6 col-xs-12">
             <Popup trigger={
                         <button>
                             <img src={utility} />
-                            <p id="utility">Utility</p>
+                            <p id="utility">Underground Utilities</p>
                         </button>
                         } modal>
                 {close => (
@@ -28,27 +28,24 @@ class Services extends Component{
                     <a className="close" onClick={close}>
                     &times;
                     </a>
-                    <div className="header"> Services >  Utility</div>
+                    <div className="header"> Services >  Underground Utilities</div>
                 <div className="moreService col-sm-6 col-xs-12">
                     <img src={utility} />
                 </div>
                 <div className="moreService text col-sm-6 col-xs-12">
-                    <h4>Utility</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae
-                        magni omnis delectus nemo, maxime molestiae dolorem numquam
-                        mollitia, voluptate ea, accusamus excepturi deleniti ratione
-                        sapiente! Laudantium, aperiam doloribus. Odit, aut.</p>
+                    <h4>Underground Utilities</h4>
+                    <p>Full underground utility contractor inclusive of water, gravity sewer, force mains, lift station, French drain and much more. Contact us today for a free consultation.</p>
                     <a className="btn" href="mailto:empireengineering@hotmail.com?subject=Utility%20Consultation">Free Consultation</a>
                 </div>
                 </div>
                 )}
             </Popup>  
             </div>
-            <div className="serviceClick col-sm-4 col-xs-12">
+            <div className="serviceClick col-sm-6 col-xs-12">
             <Popup trigger={
                         <button>
-                            <img src={paving} />
-                            <p id="paving">Paving</p>
+                            <img style={{ width: '60%' }} src={septic} />
+                            <p id="septic">Onsite Waste Water </p>
                         </button>
                         } modal>
                 {close => (
@@ -56,52 +53,19 @@ class Services extends Component{
                     <a className="close" onClick={close}>
                     &times;
                     </a>
-                    <div className="header"> Services >  Paving</div>
+                    <div className="header"> Services >  Onsite Waste Water</div>
                 <div className="moreService col-sm-6 col-xs-12">
-                    <img src={paving} />
+                    <img style={{ width: '55%' }} src={septic} />
                 </div>
                 <div className="moreService text col-sm-6 col-xs-12">
-                    <h4>Paving</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae
-                        magni omnis delectus nemo, maxime molestiae dolorem numquam
-                        mollitia, voluptate ea, accusamus excepturi deleniti ratione
-                        sapiente! Laudantium, aperiam doloribus. Odit, aut.</p>
-                    <a className="btn" href="mailto:empireengineering@hotmail.com?subject=Paving%20Consultation">Free Consultation</a>
-                </div>
-                </div>
-                )}
-            </Popup>  
-            </div>
-            <div className="serviceClick col-sm-4 col-xs-12">
-            <Popup trigger={
-                        <button>
-                            <img src={septic} />
-                            <p id="septic">Septic Tank</p>
-                        </button>
-                        } modal>
-                {close => (
-                <div className="modal">
-                    <a className="close" onClick={close}>
-                    &times;
-                    </a>
-                    <div className="header"> Services >  Septic Tank</div>
-                <div className="moreService col-sm-6 col-xs-12">
-                    <img src={septic} />
-                </div>
-                <div className="moreService text col-sm-6 col-xs-12">
-                    <h4>Septic Tank</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae
-                        magni omnis delectus nemo, maxime molestiae dolorem numquam
-                        mollitia, voluptate ea, accusamus excepturi deleniti ratione
-                        sapiente! Laudantium, aperiam doloribus. Odit, aut.</p>
+                    <h4>Onsite Waste Water</h4>
+                    <p>Complete array of services in the onsite sewage field. Inclusive of new septic installations, repairs of existing systems, pump outs, system plan designs, site evaluations and much more. Contact us today for a free consultation.</p>
                     <a className="btn" href="mailto:empireengineering@hotmail.com?subject=Septic%20Tank%20Consultation">Free Consultation</a>
                 </div>
                 </div>
                 )}
             </Popup>  
             </div>
-           
-
         </div>
     </div>
   );
