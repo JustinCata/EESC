@@ -15,10 +15,10 @@ var secret = require('./config/secret'); // Where the secret things live
 
 var app = express();
 
-app.use(express.static(path.join(__dirname, 'client/build')));
+app.use(express.static(path.join(__dirname, './client/build')));
 
-app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+app.get('*', function (req, res) {
+  res.sendFile(path.join(__dirname, './client/build', 'index.html'));
 });
 
 
