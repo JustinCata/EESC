@@ -19,7 +19,7 @@
     "express-session": "^1.15.6",
     "mongoose": "^5.0.14",
     "morgan": "^1.9.0",
-    "nodemailer": "^4.6.4",
+    "nodemailer": "^6.4.16",
     "nodemailer-juice": "^1.0.0",
     "nodemon": "^1.17.3",
     "npm": "^6.0.0",
